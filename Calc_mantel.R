@@ -1,6 +1,6 @@
 #-----------------------------------------------------------------------
 # Compute correlations between brain ROIs (using the "Mantel" function).
-# There are 112 ROIs to begin with, but you can decrease the number of ROIs (drop uninformative ROIs), but specifying a threshold.
+# There are 112 ROIs to begin with, but you can decrease the number of ROIs (drop uninformative ROIs), by specifying a threshold.
 # For example, a threshold of 0.05 will only include ROIs that code an image significantly across subjects.
 #-----------------------------------------------------------------------
 rm(list=ls())
